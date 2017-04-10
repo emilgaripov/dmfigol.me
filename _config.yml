@@ -20,3 +20,5 @@ github_username:  dmfigol
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
+
+theme: minimal-mistakes-jekyll
