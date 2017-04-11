@@ -4,6 +4,7 @@ variables:
   JEKYLL_ENV: production
 
 before_script:
+  - bundle config disable_checksum_validation true
   - bundle install
 
 test:
