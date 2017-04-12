@@ -21,9 +21,9 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
-  - printf "%s" w1HchFc6M8H99QFSCUA3JTVNhovbWHsigfMcn4A5boc.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/w1HchFc6M8H99QFSCUA3JTVNhovbWHsigfMcn4A5boc
-  - printf "%s" hR0BUwHfrmGOmhDAWEshmJohCZ6jckRqfcjD4lUmdfI.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/hR0BUwHfrmGOmhDAWEshmJohCZ6jckRqfcjD4lUmdfI
-  - printf "%s" DB3MmQErAsp2IwHl1XO1S8CesFwh-816vO37fQiftLQ.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/DB3MmQErAsp2IwHl1XO1S8CesFwh-816vO37fQiftLQ
+  - printf "%s" _WDLvRDBHQN1zXt6UB9dqj5Yn7kpvRYu4hRNFe17jsk.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/_WDLvRDBHQN1zXt6UB9dqj5Yn7kpvRYu4hRNFe17jsk
+  - printf "%s" 6pLbpz-rWkizPBYIlmPQq7P0wCGyJgTZkl_UGQX2JmY.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/6pLbpz-rWkizPBYIlmPQq7P0wCGyJgTZkl_UGQX2JmY
+  - printf "%s" YfNdwIWn7FVNLZM77OJmVQ-BQg3jUG7RU2m2jxYceOI.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/YfNdwIWn7FVNLZM77OJmVQ-BQg3jUG7RU2m2jxYceOI
   artifacts:
     paths:
     - public
