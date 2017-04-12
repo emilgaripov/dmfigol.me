@@ -21,9 +21,9 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
-  - cp ./public/.well-known/acme-challenge/uVmMiXIne8m62jmVIZCZhHoHJXWuWcwEIRWiCrVBU0I.html ./public/.well-known/acme-challenge/uVmMiXIne8m62jmVIZCZhHoHJXWuWcwEIRWiCrVBU0I
-  - cp ./public/.well-known/acme-challenge/ZX0Mf1MrQC9T_3Fu1ijjT3SvXo8JdT98v7zajmegL54.html ./public/.well-known/acme-challenge/ZX0Mf1MrQC9T_3Fu1ijjT3SvXo8JdT98v7zajmegL54
-  - cp ./public/.well-known/acme-challenge/LA_Cxti1Ct1vAC6jGrKRa0NSXnpdO3TmLOp7tGjq6JI.html ./public/.well-known/acme-challenge/LA_Cxti1Ct1vAC6jGrKRa0NSXnpdO3TmLOp7tGjq6JI
+  - cp ./public/.well-known/acme-challenge/w1HchFc6M8H99QFSCUA3JTVNhovbWHsigfMcn4A5boc.html ./public/.well-known/acme-challenge/w1HchFc6M8H99QFSCUA3JTVNhovbWHsigfMcn4A5boc
+  - cp ./public/.well-known/acme-challenge/hR0BUwHfrmGOmhDAWEshmJohCZ6jckRqfcjD4lUmdfI.html ./public/.well-known/acme-challenge/hR0BUwHfrmGOmhDAWEshmJohCZ6jckRqfcjD4lUmdfI
+  - cp ./public/.well-known/acme-challenge/DB3MmQErAsp2IwHl1XO1S8CesFwh-816vO37fQiftLQ.html ./public/.well-known/acme-challenge/DB3MmQErAsp2IwHl1XO1S8CesFwh-816vO37fQiftLQ
   artifacts:
     paths:
     - public
