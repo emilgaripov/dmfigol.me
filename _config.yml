@@ -18,11 +18,12 @@ jekyll-archives:
 google_analytics: UA-97452588-1
 lang: en-US
 author: Dmitry Figol
-twitter_username: dmfigol
-github_username:  dmfigol
 title: Dmitry Figol
 description: >
   Blog about networking and programming
 excerpt_separator: <!--more-->
 
 include: ['_pages']
+twitter_username: dmfigol
+linked_username:  dmitryfigol
+github_username:  dmfigol
