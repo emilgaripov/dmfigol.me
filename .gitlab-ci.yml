@@ -21,9 +21,6 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
-  - printf "%s" _WDLvRDBHQN1zXt6UB9dqj5Yn7kpvRYu4hRNFe17jsk.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/_WDLvRDBHQN1zXt6UB9dqj5Yn7kpvRYu4hRNFe17jsk
-  - printf "%s" 6pLbpz-rWkizPBYIlmPQq7P0wCGyJgTZkl_UGQX2JmY.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/6pLbpz-rWkizPBYIlmPQq7P0wCGyJgTZkl_UGQX2JmY
-  - printf "%s" YfNdwIWn7FVNLZM77OJmVQ-BQg3jUG7RU2m2jxYceOI.hYp8ZbGXvV8IPA1KvV2GdZ-BgyJ6xYPhEdMOvmh7tY4 > ./public/.well-known/acme-challenge/YfNdwIWn7FVNLZM77OJmVQ-BQg3jUG7RU2m2jxYceOI
   artifacts:
     paths:
     - public
