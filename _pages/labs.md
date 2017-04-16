@@ -1,5 +1,5 @@
-labs---
+---
 layout: page
-title: "About"
+title: "Labs"
 permalink: /labs/
 ---
