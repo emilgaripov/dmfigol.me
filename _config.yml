@@ -24,3 +24,5 @@ title: Dmitry Figol
 description: >
   Blog about networking and programming
 excerpt_separator: <!--more-->
+
+include: ['_pages']
