@@ -4,9 +4,11 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 
-permalink: /:year/:month/:day/:title/
-paginate_path: /posts/:num/
-paginate: 5
+#permalink: /:year/:month/:day/:title/
+permalink: /:categories/:slug
+
+paginate_path: /page/:num/
+paginate: 2
 
 jekyll-archives:
   enabled:
@@ -20,7 +22,7 @@ lang: en-US
 author: Dmitry Figol
 title: Dmitry Figol
 description: >
-  Blog about networking and programming
+  Personal blog about networking and programming
 excerpt_separator: <!--more-->
 
 include: ['_pages']

@@ -2,8 +2,11 @@
 layout: post
 title:  "It's never too late to start a blog!"
 date:   2017-04-16 15:00:00 +0200
-categories:
+categories: blog
+tags: general
 comments: true
+short_title: intro
+permalink: /:categories/intro
 ---
 
 Hi!  

@@ -27,6 +27,10 @@ $content-width:    1000px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+.float-right {
+    float: right;
+    margin: 0 0 10px 10px;
+}
 
 
 // whiteglass also includes a mixin for defining media queries.
