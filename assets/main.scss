@@ -30,8 +30,22 @@ $on-laptop:        800px;
 .float-right {
     float: right;
     margin: 0 0 10px 10px;
+    height: auto;
+    max-width: 100%;
 }
 
+.float-left {
+    float: left;
+    margin: 0 10px 10px 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 // whiteglass also includes a mixin for defining media queries.
 // Use media queries like this:
