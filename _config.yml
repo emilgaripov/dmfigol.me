@@ -5,7 +5,6 @@ gems:
   - jekyll-sitemap
 
 #permalink: /:year/:month/:day/:title/
-permalink: /:categories/:slug
 
 paginate_path: /page/:num/
 paginate: 2
