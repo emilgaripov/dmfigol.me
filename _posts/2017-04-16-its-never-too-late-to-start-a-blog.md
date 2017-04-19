@@ -5,10 +5,8 @@ date:   2017-04-16 15:00:00 +0200
 categories: blog
 tags: general
 comments: true
-short_title: intro
 permalink: /:categories/intro
 ---
-
 Hi!  
 My name is Dmitry Figol. Currently I am a customer support engineer in Cisco TAC in Krakow. I enjoy networking a lot and I have CCIE R&S. On top of that I am Python and network programmability enthusiast. More information about me as well as contact details you can find on the [About](/about/) page.
 
