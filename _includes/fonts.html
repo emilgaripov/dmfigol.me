@@ -1,8 +1,4 @@
 <script type="text/javascript">
-    MTIConfig = {};
-    MTIConfig.EnableCustomFOUTHandler = true // true = prevent FOUT
-</script>
-<script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Bitter:400,700,400italic:latin' ] }
   };
@@ -16,3 +12,9 @@
     s.parentNode.insertBefore(wf, s);
   })();
 </script>
+<style type="text/css">
+  .wf-loading body { visibility: hidden; }
+  .wf-active body, .wf-inactive body {
+    visibility: visible; font-family: 'Bitter';
+  }
+</style>
