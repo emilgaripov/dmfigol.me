@@ -3,6 +3,7 @@ gems:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-last-modified-at
 
 #permalink: /:year/:month/:day/:title/
 permalink: /:categories/:slug/

@@ -9,3 +9,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "jekyll-whiteglass"
 gem 'ruby-oembed'
+gem 'jekyll-last-modified-at'
