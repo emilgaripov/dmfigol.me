@@ -24,7 +24,7 @@ I am open to new opportunities and free to relocate. Feel free to reach out to m
 This blog is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### Contacts
-Email: dmitry [at] dmfigol.me   
+Email: admin [at] dmfigol.me   
 Twitter: [@dmfigol](https://twitter.com/{{ site.twitter_username }}){:target="_blank"}   
 LinkedIn: [dmitryfigol](https://linkedin.com/in/{{ site.linked_username }}){:target="_blank"}   
 GitHub: [dmfigol](https://github.com/{{ site.github_username }}){:target="_blank"}   
