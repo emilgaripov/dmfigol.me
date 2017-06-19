@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "About"
-permalink: /about/
+permalink: /about
 ---
-![Dmitry Figol](/assets/dmfigol.jpg){:width="300px" .float-right}
+![Dmitry Figol](https://s3.us-east-2.amazonaws.com/media.dmfigol.me/dmfigol.jpg){:width="300px" .float-right}
 My name is Dmitry Figol and I am originally from Ukraine.
 Currently I work as a customer support engineer in Cisco TAC - Core Architecture team in Krakow, Poland.
 

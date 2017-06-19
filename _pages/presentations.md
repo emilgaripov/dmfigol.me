@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "My presentations"
-permalink: /presentations/
+permalink: /presentations
 ---
 
 [Routing basics/CEF](http://www.slideshare.net/DmitryFigol/routing-basicscef){:target="_blank"}   
