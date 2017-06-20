@@ -25,7 +25,8 @@ description: >
   Personal blog about networking and programming
 excerpt_separator: <!--more-->
 
-include: ['_pages']
+include: ["_pages"]
+exclude: ["nginx", "docker-compose.yml"]
 twitter_username: dmfigol
 linked_username:  dmitryfigol
 github_username:  dmfigol

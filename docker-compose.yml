@@ -1,0 +1,21 @@
+version: "3"
+services:
+  jekyll:
+    image: ruby:2.4
+    container_name: docker-jekyll
+    volumes:
+      - ~/dmfigol.me:/src
+      - ~/docker-volumes/dmfigol.me/site:/dst
+    working_dir: /src
+    command: sh -c 'bundle install && exec jekyll build --destination /dst --watch'
+  nginx:
+    image: nginx
+    container_name: docker-nginx
+    volumes:
+      - ~/docker-volumes/dmfigol.me/certs:/etc/letsencrypt
+      - ~/docker-volumes/dmfigol.me/certs-data:/data/letsencrypt
+      - ~/docker-volumes/dmfigol.me/nginx/conf/default.conf:/etc/nginx/conf.d/default.conf
+      - ~/docker-volumes/dmfigol.me/site:/usr/share/nginx/html
+    ports:
+       - "80:80"
+       - "443:443"
