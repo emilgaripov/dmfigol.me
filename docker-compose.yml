@@ -7,7 +7,7 @@ services:
       - ~/dmfigol.me:/src
       - ~/docker-volumes/dmfigol.me/site:/dst
     working_dir: /src
-    command: sh -c 'bundle install && exec jekyll build --destination /dst --watch'
+    command: sh -c 'JEKYLL_ENV=production bundle install && exec jekyll build --destination /dst --watch'
   nginx:
     image: nginx
     container_name: docker-nginx
