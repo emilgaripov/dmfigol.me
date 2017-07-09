@@ -83,7 +83,7 @@ EIGRP-IPv4 Topology Entry for AS(100)/ID(10.1.3.3) for 10.1.3.3/32
 
 We can see that **Computed Distance** is **128256** and **Reported Distance** is **0**.  
 The latter one is 0, because this router originated the prefix. Computed distance is calculated from the individual metric components which are listed in the same output.  
-Let's calculate the metric manually (I usually use [IPython](https://ipython.org/) for this purpose):  
+Let's calculate the metric manually (I usually use [IPython](https://ipython.org/){:target="_blank"} for this purpose):  
 {% highlight python %}
 In [1]: bw = 8000000
 
