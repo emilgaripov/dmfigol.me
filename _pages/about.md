@@ -7,7 +7,7 @@ permalink: /about
 My name is Dmitry Figol and I am originally from Ukraine.
 Currently I work as a customer support engineer in Cisco TAC - Core Architecture team in Krakow, Poland.
 
-I support routers as a platform and I investigate crashes, memory leaks and other unexpected behaviour on IOS, IOS-XE, NX-OS routers and switches. Right now I am temporarily in VPN team learning different VPN technologies and I am excited about it.
+I support routers as a platform and I investigate crashes, memory leaks and other unexpected behavior on IOS, IOS-XE, NX-OS routers and switches. Right now I am temporarily in VPN team learning different VPN technologies and I am excited about it.
 
 I also have CCIE R&S #53592, which I earned in July 2016 and hopefully one day I will also start preparing for CCIE SP or Security track.
 Before I joined Cisco I was writing Python scripts in the game development industry. Because of that I am currently trying to apply my Python skills to the networking field. I am very interested in network programmability and automation and I am curious to see in what form it will be in the future.

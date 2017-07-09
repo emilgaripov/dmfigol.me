@@ -19,8 +19,6 @@
   {% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ feed_path | absolute_url }}">
 
-  {% include head_custom.html %}
-
   {% if site.facebook_app_id %}
     <meta property="fb:admins" content="{{ site.facebook_app_id }}">
     <meta property="og:title" content="{{ title }}">
