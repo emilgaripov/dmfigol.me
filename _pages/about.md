@@ -10,9 +10,9 @@ Currently I work as a customer support engineer in Cisco TAC - Core Architecture
 I support routers as a platform and I investigate crashes, memory leaks and other unexpected behavior on IOS, IOS-XE, NX-OS routers and switches. Right now I am temporarily in VPN team learning different VPN technologies and I am excited about it.
 
 I also have CCIE R&S #53592, which I earned in July 2016 and hopefully one day I will also start preparing for CCIE SP or Security track.
-Before I joined Cisco I was writing Python scripts in the game development industry. Because of that I am currently trying to apply my Python skills to the networking field. I am very interested in network programmability and automation and I am curious to see in what form it will be in the future.
+Before I joined Cisco I was writing Python scripts in the game development industry. Because of that I am currently trying to apply my Python skills to the networking field. I am very interested in network programmability and automation and I am curious to see in what form it will be in the future. Currently I am doing a lot of Python and NETCONF/YANG.
 
-I am doing a lot of mentoring and teaching and I really enjoy it.
+I am doing a lot of mentoring and teaching and I really enjoy it. Part of [RouterGods networking community](http://www.routergods.com/){:target="_blank"} and proud of it!
 
 In terms of education, I have Bachelor of Science (BS) in Telecommunications.   
 I had two chances to finish Master's degree: once in Ukraine and once in Germany (Cologne), but I never did. In 2016 I decided to fix this and I applied for Georgia Tech online Master of Science in Computer Science program (OMSCS). It is quite hard and consumes a lot of time, but it is a rewarding journey.
